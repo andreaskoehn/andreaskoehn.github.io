@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<style>
+
+			body{
+				margin: 0px;
+				padding: 0px;
+				color :#000000;
+				font-family: "helveticaf",courier new, georgia;
+				background-color: #999999;
+			}
+
+			h1	{
+				color :#000000;
+				font-size: 80px;
+			}
+			#title {
+					color: orange;
+				}
+
+			.ied-small-font {
+					color: orange;
+				}
+			a {
+				color: blue;
+				text-decoration: none;
+			}
+			a:hover {
+				color: orange;
+			}
+			#ied-section-one {
+				background-image: url(images/background.gif);
+				background-size: 10%;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<section id="ied-section-one">
+			<div>
+				<h1 id="title" class="from">Hello World!</h1>
+				<h1>My subtitle</h1>
+				<h3 class="from">From <a href="other stuff/about.html">ñöbÖdy</h3>
+				<a href="https://www.facebook.com">facebook</a>
+				<h6 class="ied-small-font"> Favourite Books</h6>
+				<ul>
+					<li>
+						<a href="http://en.wikipedia.org/wiki/The_Alchemist_%28novel%29"> 
+							<img src="images/TheAlchemist.jpg" height="100" width=""> 
+						</a>
+					</li>
+					<li>
+						<a href="http://en.wikipedia.org/wiki/Utopia">Utopia</a>
+					</li>
+					<li>
+						<a href="http://en.wikipedia.org/wiki/Stoner_%28novel%29">Stoner</a>
+					</li>
+				</ul>
+				<ul>
+
+				</ul>
+			</div>	
+		</section>
+	</body>
+
+</html>
